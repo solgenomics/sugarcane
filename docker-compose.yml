@@ -19,6 +19,9 @@ services:
         source: sgn_local.conf
         target: /home/production/cxgn/sgn/sgn_local.conf
       - type: bind
+        source: mason
+        target: /home/production/cxgn/sgn/mason
+      - type: bind
         source: db_dumps
         target: /db_dumps
       - type: bind
