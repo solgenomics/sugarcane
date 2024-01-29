@@ -6,6 +6,7 @@ services:
     image: breedbase/breedbase:latest
 
     container_name: breedbase_sugarcane_web
+    restart: always
     ports:
       - 8102:8080
     volumes:
@@ -20,7 +21,7 @@ services:
         target: /home/production/cxgn/sgn/sgn_local.conf
       - type: bind
         source: mason
-        target: /home/production/cxgn/sgn/mason
+        target: /home/production/cxgn/cassava/mason
       - type: bind
         source: mason/site/footer/footer_body.mas
         target: /home/production/cxgn/sgn/mason/site/footer/body.mas
