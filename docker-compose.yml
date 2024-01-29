@@ -22,7 +22,7 @@ services:
         source: mason
         target: /home/production/cxgn/sgn/mason
       - type: bind
-        source: mason/footer/footer_body.mas
+        source: mason/site/footer/footer_body.mas
         target: /home/production/cxgn/sgn/mason/site/footer/body.mas
       - type: bind
         source: mason/site/header/analytics.mas
