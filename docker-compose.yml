@@ -27,7 +27,7 @@ services:
         target: /home/production/cxgn/sgn/mason/site/footer/body.mas
       - type: bind
         source: /home/production/sugarcane/analytics.mas
-        target: /home/production/cxgn/cassava/mason/site/header/analytics.mas
+        target: /home/production/cxgn/sugarcane/mason/site/header/analytics.mas
       - type: bind
         source: db_dumps
         target: /db_dumps
