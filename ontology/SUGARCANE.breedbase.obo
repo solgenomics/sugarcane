@@ -1500,11 +1500,11 @@ relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
 
 [Term]
 id: SUGARCANE:0000180
-name: Tassel Count
+name: Tassel Count, Male
 namespace: sugarcane_trait
-def: "Daily inventory of emerged tassels for parents on crossing carts or can lines" []
-synonym: "Number Flowering Tassels" RELATED []
-synonym: "Tassel Count" RELATED []
+def: "Daily inventory of emerged MALE tassels for parents on crossing carts or can lines, recorded on a per-plot basis" []
+synonym: "Number MALE Flowering Tassels" RELATED []
+synonym: "MALE Tassel Count" RELATED []
 xref: breedinginsight.org:12ca06a5-cc9f-4080-9dfa-1730e50af5ff
 relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
 
@@ -1573,6 +1573,16 @@ def: "Relative survival or the proportion of internodes with sugarcane borer eme
 synonym: "Rel Surv" RELATED []
 synonym: "Relative Survival" RELATED []
 xref: breedinginsight.org:c02f8c02-3991-44cc-a259-c54401ee0b30
+relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
+
+[Term]
+id: SUGARCANE:0000188
+name: Tassel Count, Female
+namespace: sugarcane_trait
+def: "Daily inventory of emerged FEMALE tassels for parents on crossing carts or can lines, recorded on a per-plot basis" []
+synonym: "Number FEMALE Flowering Tassels" RELATED []
+synonym: "FEMALE Tassel Count" RELATED []
+xref: breedinginsight.org:12ca06a5-cc9f-4080-9dfa-1730e50af5ff
 relationship: VARIABLE_OF SUGARCANE:0000000 ! Sugarcane Trait Ontology
 
 [Typedef]
